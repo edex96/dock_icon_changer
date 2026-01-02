@@ -1,0 +1,24 @@
+name: dock_icon_changer
+description: "Sets image asset as a dock image on macos"
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.10.4
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      macos:
+        pluginClass: DockIconChanger
