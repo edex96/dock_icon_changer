@@ -1,7 +1,7 @@
 name: dock_icon_changer
 description: "Sets image asset as a dock image on macos"
 version: 0.0.1
-homepage:
+homepage: https://github.com/edex96/dock_icon_changer
 
 environment:
   sdk: ^3.10.4
